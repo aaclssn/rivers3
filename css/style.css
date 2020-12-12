@@ -1002,7 +1002,15 @@ ul{
 /*Your code here again.*/ 
 @media screen and (prefers-reduced-motion:reduce){
 
-  .main{
+  .blink-2{
+    -webkit-transform: none;
+    transform: none;        
+    animation-duration: 0s;
+   
+
+  
+  }
+  .slide-out-bottom{
     -webkit-transform: none;
     transform: none;        
     animation-duration: 0s;
