@@ -1011,6 +1011,7 @@ ul{
   
   }
   .slide-out-bottom{
+    display: none;
     -webkit-transform: none;
     transform: none;        
     animation-duration: 0s;
